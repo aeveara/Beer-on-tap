@@ -1,0 +1,442 @@
+/*CSS Stylesheet*/
+
+/** {border: 1px solid black;}*/
+
+body {
+    margin: 0;
+    background: #3399cc;
+}
+img {
+    max-width: 100%;
+}
+
+#container{
+    width:100%;
+}
+
+/*TAPS*/
+.bar{
+    width:700px;
+    height: 500px;
+    position: relative;
+    background: #66cc99;
+    margin:0 auto;
+   
+}
+#tap{
+    width:700px;
+    position: absolute;
+    top:210px;
+
+}
+
+#counter{
+    width: 100%;
+}
+
+.pull{
+    display: inline-block;
+    transform-origin: bottom;
+}
+/*
+.pull:hover {
+     animation: hover 3s;
+}
+*/
+
+
+#tOne{
+    position: absolute;
+    z-index: 10;
+    top:180px;
+    left:75px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+
+
+#tTwo{
+    position: absolute;
+    z-index: 10;
+    top:200px;
+    left:152px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+
+
+#tThree{
+    position: absolute;
+    z-index: 10;
+    top:17%;
+    left:224px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+
+
+#tFour{
+    position: absolute;
+    z-index: 10;
+    top:180px;
+    left:309px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+
+
+#tFive{
+    position: absolute;
+    z-index: 10;
+    top:180px;
+    left:385px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+
+
+#tSix{
+    position: absolute;
+    z-index: 10;
+      top:200px;
+    left:464px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+
+
+#tSeven{
+    position: absolute;
+    z-index: 10;
+    top:180px;
+    left:540px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+
+
+#tEight{
+    position: absolute;
+    z-index: 10;
+    top:17%;
+    left:613px;
+    animation: hover 3s;
+    animation-delay: 1.5s;
+}
+  
+
+/*MUGS*/
+.mug{
+    position: absolute;
+ bottom: -10px; 
+    z-index: 10;
+    
+}
+
+
+#mugOne{
+ position: absolute;
+    left:72px;
+
+}
+#mugTwo{
+ position: absolute;
+    left:148px;
+}
+#mugThree{
+ position: absolute;
+    left:222px;
+}
+#mugFour{
+ position: absolute;
+    left:297px;
+}
+#mugFive{
+ position: absolute;
+   left:378px;
+}
+#mugSix{
+ position: absolute;
+    left:455px;
+}
+#mugSeven{
+ position: absolute;
+    left:530px;
+}
+#mugEight{
+ position: absolute;
+    left:610px;
+}
+
+/*LIQUID*/
+/*
+.liquid{
+    background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+   
+}
+*/
+
+
+#liquidOne{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+#liquidTwo{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+#liquidThree{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+#liquidFour{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+#liquidFive{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+#liquidSix{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+#liquidSeven{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+#liquidEight{
+      background-color: #edaf32;
+    width: 40px;
+    height: 0px;
+    position: absolute;
+    bottom: 5px;
+    left:3px;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+    animation: fillUp 3s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+
+
+/*POUR*/
+
+.pour{
+    z-index: 11;
+}
+
+#pourOne {
+  position: absolute;
+top:326px;    
+  left:85px ;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+    animation: pour 3s forwards;
+    animation-delay: 2s;    
+}
+#pourTwo {
+  position: absolute;
+top:326px;     
+   left:162px;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+    animation: pour 3s forwards;
+    animation-delay: 2s;
+}
+
+#pourThree {
+  position: absolute;
+top:326px;     
+  left:241px;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+    animation: pour 3s forwards;
+    animation-delay: 2s;
+}
+
+#pourFour {
+  position: absolute;
+top:326px;    
+  left:318px;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+    animation: pour 3s forwards;
+    animation-delay: 2s;
+}
+
+#pourFive {
+  position: absolute;
+top:326px;    
+    left:397px;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+    animation: pour 3s forwards;
+    animation-delay: 2s;
+}
+
+#pourSix {
+  position: absolute;
+top:326px;     
+  left:474px;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+    animation: pour 3s forwards;
+    animation-delay: 2s;
+}
+
+#pourSeven {
+  position: absolute;
+top:326px;     
+  left:552px;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+    animation: pour 3s forwards;
+    animation-delay: 2s;
+}
+
+#pourEight {
+  position: absolute;
+top:326px;     
+  left:630px;
+  width: 5px;
+  height: 0px;
+  background-color: #edaf32;
+  border-radius: 10px;
+      animation: pour 3s forwards;
+    animation-delay: 2s;
+}
+
+
+/*KEYFRAMES*/
+@keyframes hover{
+    0%{transform: rotateX(0deg);}
+    75%{transform: rotateX(-50deg);}
+    100%{transform: rotateX(0deg);}
+}
+
+@keyframes pour{
+    0%{height:0px;
+        opactity:0;
+    }
+    5%{opacity:1.0;
+        height: 10px;
+    }
+    
+    25%{height:175px;}
+    
+    50%{height:165px;
+    }
+    
+    75%{height:150px;}
+    
+    80%{height:140px;}
+    
+    100%{
+    height:0px;
+        opacity: 1.0;
+}
+}
+    
+    @keyframes fillUp{
+        0%{height:5px;
+           
+        }
+        
+  100% {
+   height:65px;
+      
+  }
+}
+
